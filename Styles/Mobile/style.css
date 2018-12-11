@@ -1,0 +1,166 @@
+@media screen and (min-width: 300px) and (max-width: 750px){
+	body{
+		background: #273340;
+		padding-top: constant(safe-area-inset-top);           
+    	padding-left: constant(safe-area-inset-left);               
+    	padding-right: constant(safe-area-inset-right);         
+    	padding-bottom: constant(safe-area-inset-bottom);
+
+    	padding-top: env(safe-area-inset-top);           
+    	padding-left: env(safe-area-inset-left);               
+    	padding-right: env(safe-area-inset-right);         
+    	padding-bottom: env(safe-area-inset-bottom);         
+	}
+
+	html{font-size: 12px;}
+	#homeBar{display: none;}
+	.wlg300{display: none;}
+	.w100{width: 100%!important;}
+	.containerHome a i{font-size: 3rem !important;}
+	.containerHome{padding-top: 40%;}
+	.contWrap .conItem .oneItem{
+		color: white;background: url(/Image/mobile/btnUp.png) center /100% 100%;border-radius: 1rem;
+		margin-left: 6%;width: 40%;float: left;margin-right: 3%;margin-top: 1rem;padding-bottom: 2%;
+	}
+	.navbar .right .name p{height:1.8rem;width:1.8rem;display: inline-block;vertical-align: middle;margin: 0;border-radius: 0.9rem;}
+	.navbar .right .name{white-space: nowrap;border-right:1px solid #eeeeee;padding-right: 10px;margin-right: 10px;}
+	.corper a:nth-child(2){margin-left: 10px!important;display: none;}
+	.nextBtn a{background:#1CBFD2 !important;border-radius: 0;height:2.6rem !important;line-height: 2.6rem !important;float: right;margin-right: 5%;margin-top:0.8rem;}
+	.nextBtn{width: 100%;position:absolute;left: 0;bottom: 0;z-index: 9;height:4rem;background: #273341;right:0;}
+	.col-20.pho20{width: 0 !important;}
+	.col-80.contWrap{width: 100% !important;}
+	#boxChoose .gategotyBox{padding:0;margin:0 auto;width: 97%;}
+	#boxChoose .gategotyBox li:first-child{margin-left: 0;}
+	#boxChoose .gategotyBox li{background: none;margin-right: 0;padding:0rem;height: none;font-size: 1rem;width: 16%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+	#boxChoose .contWrap .conItem{
+		height: 75% !important;
+	}
+	#boxChoose .contWrap .conItem .oneItem{    padding-bottom: 2%;padding-right: 2%;padding-left: 2%;margin-left: 3%;}
+	#boxChoose .contWrap .conTitle .conTitle{margin-bottom: 0;}
+	#mertarialChoose .catogoryCho{height:70%;overflow-y: scroll;}
+	#mertarialChoose .imgWrap{width:100%;}
+	#mertarialChoose .mertarialRight{width:100%;padding: 0;}
+	#mertarialChoose .mertarialRight .col-10.itemName{width: 15%;}
+	#mertarialChoose .mertarialRight .col-90.itemPho{width: 85%;}
+	#mertarialChoose .mertarialRight .col-90.itemPho dl{width: 30%;height:8rem ;}
+	#mertarialChoose .mertarialRight .col-90.itemPho dl dt{height: 6rem;}
+	#mertarialChoose .mertarialRight .technology .col-10{width: 15%;}
+	#mertarialChoose .mertarialRight .technology .col-90{width: 85%;}
+	#mertarialChoose .mertarialRight .technology .col-90 li{margin-right: 1%;}
+	#mertarialChoose .surfaceDeal .col-20{width: 25%;}
+	#mertarialChoose .surfaceDeal .col-80{width: 75%;}
+	#mertarialChoose .printColor .col-20{width: 25%;}
+	#mertarialChoose .printColor .col-80{width: 75%;}
+
+	#boxFinally .finishPack{width: 40%;}
+	#boxFinally .contWrap .packShow{width: 75%;}
+
+
+	#orderManage .orderCon{width: 98%;}
+	#orderManage .nums{font-size: 1.6rem !important;}
+	#orderManage .w100{height: 100%;}
+	#orderManage .orderCon{height:95%;}
+	#orderManage .orderList{height: 80%;}
+	#orderManage .listWrap{height: 70%;}
+	#orderManage .orderCon .status-allorder{display: none;}
+	#orderManage .orderCon .staItem{font-size: 1rem ;width: 30%;}
+
+	#orderManage .orderFilt{width: 100%;height: auto;line-height: inherit;}
+	#orderManage  .orderFilt .orderS .menu,#orderManage .orderFilt .times .menu{margin-top: 0.5rem;float: right;}
+	#orderManage  .orderFilt .orderNum .menu{float: right;width:50%;margin-top: 0.5rem; }
+	#orderManage .orderNum,#orderManage .orderS,#orderManage .times{width: 49%;height: 3rem;padding: 0;margin:0;line-height: 3rem;}
+	#orderManage .orderNum>span,#orderManage .orderS>span,#orderManage .times>span{width: 40%;display: inline-block;}
+	#orderManage .orderNum>span,#orderManage .orderS>span,#orderManage .times>span{width: 40%;display: inline-block;}
+
+	#orderManage .orderFilt .orderNum input{width: 80%;padding-left: 0.5rem;}
+	#orderManage .orderFilt .times input{width: 80%;}
+	#orderManage .orderFilt .orderS .menu select{float: right;}
+	#orderManage .orderFilt .times .menu{width: 50%;float: right;}
+	#orderManage .orderFilt .searcBtn{width: 27%;}
+	#orderManage .orderFilt .searcBtn p{height: 2rem;line-height: 2rem;margin-top: 0.5rem;font-size: 1.2rem;border-radius: 0;}
+	#orderManage .likeTable p{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;font-size: 1rem;}
+
+	#orderPop .orderWrap{width: 90% !important;}
+	/*new add*/
+	.CompanyRight_Top_Map{height: 60%;}
+	.CompanyRight_Top_Bar{width: 100%; height: 80%;  margin: 0 auto;background-color: #1F2931;   }
+	.CompanyRight_Top_Bar>div{height: 50%;}
+	.CompanyRight_Bottom li{ width: 15%;display: inline-block; margin: 0 1%;} /*201*/
+	.CompanyRight_Bottom{width: 100%;position: absolute; left: 0;bottom: 0;background-color: #273341;}/*192*/
+	.CompanyRight_Bottom li i{font-size: 2.3rem;} /*203*/
+	.CompanyRight_Top_Finance_Bar{height: 90%;} /*210*/
+    .CompanyRight_Top_Finance_List{height: 80%;}/*211*/
+    .CompanyRight_Top_Finance_Bar>div,.CompanyRight_Top_Finance_List>div{height: 50%;}
+    #CompanyRight_Top_Finance_table_Right{padding: 13% 5%;}
+	.CompanyRight_Bottom ul{padding-left: 0;margin: 0;}
+	.CompanyRight_Top_Matters,.CompanyRight_Top_Purchase{overflow-y: auto;}
+	#CompanyRight_Top_Purchase_Bar{padding-left: 3%;}
+	.CompanyRight_Top_Purchase_Bar{height: 100%;}
+    .CompanyRight_Top_Purchase_List{height: 120%;}
+    .CompanyRight_Top_Purchase_Bar>div,.CompanyRight_Top_Purchase_List>div{height: 50%;}
+    .CompanyRight_Top_Purchase,.CompanyRight_Top_Stock,.CompanyRight_Top_Capacity,.CompanyRight_Top_Matters,.CompanyRight_Top_Finance{padding: 0 3%;}
+    .CompanyRight_Top_Purchase_table,.CompanyRight_Top_Stock,.CompanyRight_Top_Capacity,.CompanyRight_Top_Matters,.CompanyRight_Top_Finance{height: 100%;overflow-y: auto;}
+    .CompanyRight_Top_Stock .Stock_top{height: 110%;}
+    .CompanyRight_Top_Stock .Stock_top>div{height: 50%;}
+    .CompanyRight_Top_Capacity>div:nth-child(2){height: 120%;}
+    #CompanyRight_Top_Capacity_Bar{width: 100%;height: 50%; margin: 0 auto;}
+    .CompanyRight_Top_Capacity_Intro .intro{box-sizing: border-box; width: 100%;height: 100%;margin: 0;}
+
+
+
+}
+@media screen and (min-width: 375px) {
+    html{font-size: 13px;}
+   #boxChoose .contWrap .conItem {
+    height: 76% !important;
+}
+    
+  
+}
+@media screen and (min-width: 480px) {
+   
+    #boxChoose .contWrap .conItem {
+    height: 76% !important;
+}
+  
+}
+@media screen and (min-width: 750px) {
+
+	html{font-size: 16px;}
+	.wlt750{display: none;}
+	.containerHome a i{font-size: 4.5rem !important;}
+	.containerHome{    padding: 10%;}
+	.contWrap .conItem .oneItem{text-align: center;box-sizing: border-box;height: 11rem;width:24%;float: left;margin-right: 2%;margin-left:6%;margin-bottom:2rem ;color: white;
+	background: url(/Image/mobile/btnUp.png) center /100% 100%;border-radius: 1rem;position: relative;box-sizing: border-box;}
+    .navbar .right{width:30%;}
+    .navbar .left{width:50%;}
+    .navbar .right .name p{float:right;height:1.8rem;width:1.8rem;margin:0;margin-right: 1.8rem;border-radius: 0.9rem;background:#eee;}
+    .navbar .right .name{width:60%;white-space: nowrap;border-right:1px solid #eeeeee;}
+    .nextBtn a{background:#1CBFD2 !important;width:12%;border-radius: 0;height:2.6rem !important;line-height: 2.6rem !important;float: right;margin-right: 5%;margin-top:0.8rem;}
+    .nextBtn{position:absolute;bottom: 0;width:80%;z-index: 9;height:4rem;background: #273341;right:0;}
+
+
+    /*new add*/
+    .CompanyRight_Top_Map{height: 60%;}
+	.CompanyRight_Top_Bar{width: 94%; height: 38%;  margin: 0 auto;background-color: #1F2931;   }
+	.CompanyRight_Top_Bar>div{height: 100%;}
+    .CompanyRight_Bottom li{ width: 8%;display: inline-block; margin: 0 1%;} /*201*/
+    .CompanyRight_Bottom{height: 10%;background-color: #273341;}/*192*/
+    .CompanyRight_Bottom li i{font-size: 2rem;} /*203*/
+    .CompanyRight_Top_Finance_Bar{height: 40%;} /*210*/
+    .CompanyRight_Top_Finance_List{height: 40%;}/*211*/
+    .CompanyRight_Top_Finance_Bar>div,.CompanyRight_Top_Finance_List>div{height: 100%;}
+    #CompanyRight_Top_Finance_table_Right{padding: 3% 5% 3% 0%;}
+    .CompanyRight_Top_Purchase_Bar{height: 50%;}
+    .CompanyRight_Top_Purchase_List{height: 50%;}
+    .CompanyRight_Top_Purchase_table{height: 100%;padding-right: 5%;overflow-y: auto;}
+    .CompanyRight_Top_Stock>div{height: 50%;}
+    .Stock_top{height: 50%;} /*第四个*/
+    .Stock_top>div{height: 100%;}/*第四个*/
+    table.PurchaseTable {height: 90%;} #CompanyRight_Top_Purchase_Pie,#CompanyRight_Top_Purchase_Bar,#CompanyRight_Top_Purchase_List{height: 100%;}
+    #CompanyRight_Top_Capacity_Bar{width: 50%;height: 100%; margin: 0 auto;}
+    .CompanyRight_Top_Capacity_Intro .intro{box-sizing: border-box; width: 100%;height: 100%;margin: 0;padding-right: 5%;}
+
+    
+}
+

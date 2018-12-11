@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,user-scalable=no" name="viewport" />
+    <title>AlarmCenter | 首页</title>
+    <link rel="icon" href="/Image/logo.png" type="image/x-icon">
+    <!--动画样式-->
+    <link rel="stylesheet" type="text/css" href="/Styles/Plugin/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Styles/Plugin/transitionStyle.css" />
+    <!--滚动条插件-->
+    <!--<link id="style1" rel="stylesheet" type="text/css" href="/Styles/Plugin/scrollbarStyle.css" />-->
+    <link rel="stylesheet" type="text/css" href="/Styles/Home/style1/jquery.mCustomScrollbar.min.css" />
+    <!--tree插件-->
+    <link rel="stylesheet" type="text/css" href="/Styles/Plugin/tree.min.css" />
+    <!--图标字体样式-->
+    <link rel="stylesheet" type="text/css" href="/fonts/iconfont.css" />
+    <!--公共样式-->
+    <link id="style2" rel="stylesheet" type="text/css" href="/Styles/Home/style1/puplicStyle.css" />
+    <!--所有控件皮肤-->
+    <link id="style3" rel="stylesheet" type="text/css" href="/Styles/Home/style1/homeStyle.css" />
+    <!--所有界面样式-->
+    <link id="style4" rel="stylesheet" type="text/css" href="/Styles/Home/style1/viewStyle.css" />
+    <script src="/Scripts/plug/vue.min.js"></script>
+    <!--<script type='text/javascript' src='http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js'></script>-->
+</head>
+<body>
+    <header>
+        <div class="headerLeft">
+            <img src="/Image/logos4.png" />
+            <!--<span>新一代机房综合监控系统</span>-->
+        </div>
+        <div class="headerRight">
+            <div class="popupSkin">
+                <button class="btn btns-style-2" title="主题" data-action="userSkins" data-toggle="dropdown"><i class="iconfont icon-skin"></i></button>
+                <div class="popupSkin-menu userSkin">
+                    <span style="background:#093655" value="0"></span>
+                    <span style="background:rgb(74,150,181)" value="0"></span>
+                    <span style="background:#fff" value="1"></span>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <button class="btn btns-style-2" title="全屏" data-action="launchFullscreen"><i class="iconfont icon-quanping"></i></button>
+            <button class="btn btns-style-2" title="注销" data-action="userLogout"><i class="iconfont icon-logout"></i></button>
+        </div>
+    </header>
+
+    <nav id="nav">
+        <div class="navUser">
+            <span><i class="iconfont icon-yonghu"></i> <span id="userName"></span></span>
+        </div>
+        <div class="navList">
+            <ul>
+                <li v-cloak v-for="li in pageList" v-if="li.value=='1'" data-action="navLists">
+                    <a v-bind:href="'#'+li.htmlName">
+                        <i v-bind:class="'iconfont icon-'+li.icon"></i> 
+                        <span>{{li.name}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="flodMenu" title="展开/收起" data-action="toggleMenu">
+            <i class="iconfont icon-shouqi_1"></i>
+        </div>
+    </nav>
+
+    <section class="main" id="content">
+    </section>
+    <div id="getWebUser" style="display:none;"></div>
+    <footer></footer>
+    <script src="/Scripts/plug/jquery-1.10.1.min.js"></script>
+    <script src="/Scripts/plug/jquery-ui-1.10.3.min.js"></script>
+    <script src="/Scripts/plug/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/Scripts/plug/jquery.signalR-2.1.2.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="/Scripts/plug/spin.min.js"></script>
+    <script src="/Scripts/plug/dropdown.min.js"></script>
+    <script src="/Scripts/plug/tree.min.js"></script>
+    <script src="/Scripts/plug/highcharts.js"></script>
+    <script src="/Scripts/plug/jquery.datetimepicker.js"></script>
+    <script src="/Scripts/home/public.js"></script>
+    <script src="/Scripts/home/plugin/homePlug.js"></script>
+    <script src="/Data/pageConfig.js"></script>
+    <script>
+        window.onload = function () {
+            if (window.localStorage.bgd == undefined || window.localStorage.bgd == '') {
+                skinDoc(0, 'background:#093655');
+            }
+            else {
+                var bgd = window.localStorage.bgd;
+                if (window.localStorage.style == "style2") {
+                    skinDoc(1, bgd);
+                }
+                else {
+                    skinDoc(0, bgd);
+                }
+            }
+            var app = new Vue({
+                el: '#nav',
+                data: {
+                    pageList: pages
+                }
+            });
+            //$(".navList ul").find("li").each(function (i) {
+            //    if (pages[i].value == '0') {
+            //        $(this).hide();
+            //    }
+            //});
+            var hs = window.location.hash.split('#')[1];
+            if (hs == null) {
+                loadName("index");
+            }
+            else {
+                loadName(hs);
+            }
+
+            $.mCustomScrollbar.defaults.scrollButtons.enable = true; //enable scrolling buttons by default
+            $.mCustomScrollbar.defaults.axis = "yx";
+            $('.navList').mCustomScrollbar({
+                theme: "light-3",
+                axis: 'y',
+                autoHideScrollbar:true
+            });
+        }
+
+    </script>
+</body>
+
+</html>

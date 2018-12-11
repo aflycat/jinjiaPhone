@@ -1,0 +1,130 @@
+
+<!-- 顶部导航条-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+           <!-- <img src="../../Image/mobile/logo_03.png" alt="">
+            劲嘉智慧终端运营 -->
+            <a href="#" class="backHome"><img src="../../Image/mobile/back.png" alt=""></a>
+        </div>
+        <div class="right">
+               <div class="name">
+                   <span>Hi,admin</span>
+                   <p class="photo" style="background: url(../../Image/mobile/logo_03.png) center center no-repeat;background-size: 100% 100%;border:1px solid #4a545e;"></p>
+                  
+               </div>
+
+               <div class="corper">
+                     <a href="#" class="open-panel"><i class="iconfont icon-shezhi"></i></a>
+                    <a href="" ><i class="iconfont icon-wo"></i></a>    
+               </div>
+           
+        </div>
+    </div>
+</div>
+
+<div class="pages">
+	  
+	<div class="page" data-page="orderManage" id="orderManage" style="padding-top:3rem;">
+		<div class="row">
+			<div class="col-20 wlg300"></div>
+			<div class="col-80 w100" >
+				<div class="orderCon">
+					<div class="row orderSta">
+						<div class="col-25 staItem status-noStart">
+							<p class="titName">未完成</p>
+							<p class="nums">58</p>
+						</div>
+						<div class="col-25 staItem status-finishing">
+							<p  class="titName">进行中</p>
+							<p class="nums">125</p>
+						</div>
+						<div class="col-25 staItem status-finished">
+							<p class="titName">已完成</p>
+							<p class="nums">103</p>
+						</div>
+						<div class="col-25 staItem status-allorder">
+							<p class="titName">全部</p>
+							<p class="nums">286</p>
+						</div>
+					</div>
+					<div class="orderList">
+						<div class="row orderFilt no-gutter " >
+							<div class="col-30 orderNum">
+								<span>订单号</span>
+								<div class="menu">
+									<input type="text" id="orderNum" />
+								</div>
+								
+							</div>
+							<div class="col-30 orderS" >
+								<span>订单状态</span>
+								<div class="menu">
+									<span id="orderStatus" style="line-height: 2rem;"></span>
+									<select name="" id="selectCheck">
+										<option value="">未完成</option>
+										<option value="">进行中</option>
+										<option value="">派送中</option>
+										<option value="">已完成</option>
+										<option value="">全部</option>
+									</select>
+
+								</div>
+								
+							</div>
+							<div class="col-25 times">
+								<span>时间</span>
+								<div class="menu">
+									<input type="text" id="calendar-range" value="">
+									
+								</div>
+							</div>
+							<div class="col-15 searcBtn" >
+								<p class="button  button-fill button-big" onclick="searchOrder()">查询</p>
+							</div>
+						</div>
+						<p class="tit"><strong>进行中订单</strong></p>
+						<div class="likeTable clearBoth">
+							
+								<p class="orderCode">订单号</p>
+								<p class="orderType">订单类型</p>
+								<p class="cosName">客户名称</p>
+								<p class="during">生产进度</p>
+								<p class="finiTime">预计完成时间</p>
+								<p class="statue">当前状态</p>
+							
+						</div>
+						<div class="listWrap" >
+							<table  cellpadding="0" cellspacing="0" width="100%" >
+							<tbody>
+								
+								
+							</tbody>
+						</table>
+
+						</div>
+						
+																
+							
+					</div>
+				</div>
+
+
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+			
+		</div>
+	</div>
+</div>

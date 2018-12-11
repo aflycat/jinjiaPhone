@@ -1,0 +1,258 @@
+﻿
+
+.containerHome a{padding-top: 1rem;}
+
+.page{background: transparent;}
+.backHome{color: white;height: 48px;line-height: 48px;display: inline-block;text-align: center;padding-left: 20px;}
+.backHome img{vertical-align: middle;}
+.page>div{height: 100%;background: #1f2931;}
+.clearBoth::after{content:"";clear: both;display: block;}
+.active2{color:#02f1ff !important;border-right: 5px solid #02f1ff;box-sizing: border-box;}
+.clear{clear:both;}
+.navbar{background: #273340;height:3rem;color: white;font-family: "微软雅黑";font-size: 1rem;padding-left: 15px;box-shadow: 0px 1px 5px #222;}
+.navbar:after{height:0px;}
+.navbar .left img{width:auto; height:2rem;margin-right: 0.5rem;}
+.navbar .right .name,.navbar .right .corper{text-align: center;line-height:2rem;height:2rem;}
+.navbar .right .corper{width:40%;white-space: nowrap;}
+.navbar .right .corper i{font-size: 2rem !important;color: white;}
+#homeBar{width:20%;height:100%;z-index:14;background: #273340;box-shadow: 1px 0px 5px #222;}
+#homeBar .tabWrap{width:100%;height:18rem;position:absolute;top:50%;margin-top:-9rem;}
+#homeBar .tabItem{width:100%;height:4rem;text-align: center;margin-bottom:1rem;}
+#homeBar .tabItem a{display: block;text-align: center;line-height: 4rem;height:100%;font-size: 1.2rem;color: white;}
+#homeBar .tabItem a i{font-size:2rem;}
+#homeBar .tabItem a span{float: right;margin-right: 20%;}
+/*#home{color: white;background: #f0f0f0;}*/
+.no-gutter{height: 100%;}
+.contWrap{    color: white; height: 100%;overflow: hidden;background: #1f2931;}
+ .contWrap .conTitle{width: 100%;height: auto;line-height: 2rem;font-size: 1.5rem;text-align: center;}
+ .contWrap .conTitle .conBack{float: left;width: 10%;padding-left: 5%;display: block;height:100%;line-height: 2rem;}
+ .contWrap .conTitle .conBack a{color:#3e3e3e;}
+ .contWrap .conTitle .conTitle{width: 100%;}
+ .contWrap .conItem{width:100%; height: auto;overflow: hidden;text-align: center;}
+ 
+ .homeSelect{background: url(/Image/mobile/btnDown.png) center /100% 100% !important;}
+ .containerHome a:active{background: url(/Image/mobile/btnDown.png) center /100% 100% !important;}
+ .containerHome a:active i,  .containerHome a:active p{color: #E8C44A !important;}
+ .homeSelect p,.homeSelect i{color: #02f1ff;}
+ .contWrap .conItem .oneItem i{font-size: 6rem;}
+ .contWrap .conItem .oneItem span{font-size: 3rem !important;position:absolute;top:0;right:2%;color:#09b6f6;z-index: 10; display: none;top:-5%;}
+
+
+ .contWrap .conItem .oneItem p{width:100%;margin:0;font-size:1.2rem;color: white;}
+ .contWrap .btnWrap{width:100%;height:auto;}
+ .contWrap .btnWrap a{width:25%;height:3.5rem;line-height: 3.5rem;margin:2.5rem auto;margin-bottom: 1rem;box-shadow: 5px 5px 5px 5px #ededed;font-size: 1.4rem;letter-spacing: 5px;background: #09b6f6;}
+
+#mertarialChoose .contWrap .conItem .oneItem{margin-bottom:3rem;}
+#mertarialChoose .contWrap .conItem .oneItem img{width:100%;height:100%;display: block;border-radius: 0.9rem;}
+#mertarialChoose .contWrap .conItem .oneItem p{position: absolute;bottom: -2.1rem;left: 0;font-size: 1.3rem;}
+#mertarialChoose .contWrap .btnWrap a{width:25%;height:3.5rem;line-height: 3.5rem;margin:2rem auto;margin-bottom: 0;box-shadow: 5px 5px 5px 5px #ededed;font-size: 1.4rem;letter-spacing: 5px;background: #09b6f6;}
+.contWrap .packShow{width:50%;height:25rem;margin:4rem auto;background: #fff;}
+.contWrap .packShow img{width:auto;height:100%;max-width: 100%;display: block;margin:0 auto;}
+
+
+
+
+.orderCon{width:90%;margin:1rem auto;}
+.orderCon .staItem{padding-left:3%;width:22%;border-radius: 0.9rem;font-size:1.3rem; padding-top: 0.3rem;}
+.orderCon .staItem p{margin:0em;color:#fff;}
+.orderCon .titName{margin-top:0.5em !important; }
+#orderManage .nums{font-size:2rem;font-weight: bolder;}
+.orderCon .staItem.status-noStart{background: linear-gradient(to right, #FB544C, #EC364F);}
+.orderCon .staItem.status-finishing{background: linear-gradient(to right, #699CF6, #3855D6);}
+.orderCon .staItem.status-finished{background: linear-gradient(to right, #5DCAC4, #00A087);}
+.orderCon .staItem.status-allorder{background: linear-gradient(to right, #f4c404, #df9108);}
+
+
+.orderList{color: white;width:96%;height:auto;min-height:25rem ;margin-top:2rem;background: #273340;border-radius: 0.9rem;padding-left:2%;padding-right:2%;padding-bottom: 2rem;}
+.orderFilt{width:100%;height:4rem;line-height:4rem ;}
+.orderFilt span{color: #fff;font-size:0.9rem;float: left;width:auto;padding-right: 0.5rem;}
+.orderFilt>div>span{color: white;}
+
+.menu>span{margin-left: 10px;}
+/*.orderFilt .orderNum input{ background:rgb(49, 61, 76);height: 1.8rem;width:60%;outline: none;border:none 0;padding-left: 0.2rem;font-size:0.9rem;position: relative;text-indent: 10px;color:#fff;}*/
+.orderFilt .orderS .menu,.orderFilt .times  .menu,.orderFilt .orderNum  .menu {float: left;width:65%;height:2rem;margin-top:1rem;float: left;background:rgb(49, 61, 76) ;position: relative;}
+.orderFilt .times .menu  input,.orderFilt .orderNum .menu  input{width:65%;height:60%;border:none 0;outline:none;background:rgb(49, 61, 76);float: left;margin-top:0.25rem;padding-left: 0.5rem;font-size:0.9rem;color:#fff;}
+.orderFilt .orderS .menu{width:55%;float: left;}
+
+.orderFilt .times .menu  i{float: right;line-height:2rem;font-size:1.2rem;}
+.orderFilt .orderS .menu select{float: left;width:100%;height: 80%;border: none;outline: none; appearance:none;
+ -moz-appearance:none;
+ -webkit-appearance:none;padding-left: 0.2rem;line-height: 2rem;font-size:0.9rem;opacity: 0;position: absolute;left: 0;z-index: 100;}
+ select::-ms-expand { display: none; }
+.orderFilt .orderS .menu i{position:absolute;z-index: 99;right:0;top:-50%;font-size: 1.2rem;}
+.orderFilt .searcBtn p{background: #1CBFD2;height:2.6rem;line-height: 2.6rem;text-align: center;margin-top:0.7rem;}
+.tit{width:100%;height:2rem;line-height: 2rem;text-align: center;font-size:1.2rem;margin:0;}
+table{border-collapse: collapse;}
+tbody tr th,tbody tr td{height:3rem;text-align: center;}
+tbody tr td{    font-size: 0.9rem;color: white;border: 1px solid #4a545e;}
+tbody tr .orderStatus{color:#02f1ff;}
+tbody tr .orderStatus i{font-size: 2rem !important;vertical-align: middle;}
+.orderCode{width:20% !important;}
+.orderType{width:15% !important;}
+.cosName{width:15% !important;}
+.during{width:15% !important;font-size:0.8rem !important;}
+.during .circle{margin:0.1rem 0;}
+.finiTime{width:20% !important;}
+.statue{width:15% !important;}
+.listWrap{width:100%;height:22rem;overflow: hidden;overflow-y: scroll;margin:0;box-sizing: border-box;}
+
+.likeTable{width:100%;}
+.likeTable p{float: left;list-style: none;box-sizing: border-box;height:3rem;text-align: center;line-height: 3rem;margin:0;border-right: none;}
+.nextBtn .backBtn{color: white !important;float: left;margin-left: 5%;color:#3e3e3e;    text-align: center;    background: #06b6f8;}
+#boxChoose>div{color: white; height: 100%;}
+.gategotyBox{width:100%;height:auto;overflow: hidden;color: white;padding-bottom: 0.5rem;}
+.gategotyBox li{float: left;margin-right: 3%;list-style: none;height:3rem;background: #343D4C;text-align: center;line-height: 3rem;min-width:4rem;padding: 0 1rem;}
+.gategotyBox li:first-child{margin-left: 1%;color:#02f1ff;}
+#boxChoose .contWrap .conItem{height: 28rem;}
+#boxChoose .contWrap .conItem .oneItem{height:13rem;overflow: hidden;margin-bottom: 1rem;}
+#boxChoose .contWrap .conItem .oneItem .imgWap{height:6rem;width:80%;margin:1rem auto;}
+#boxChoose .contWrap .conItem .oneItem .imgWap img{width:100%;height:100%;}
+#boxChoose .contWrap .conItem .oneItem .cato{font-size: 1.2rem;margin-top:1rem;}
+#boxChoose .contWrap .conItem .oneItem .catoDetai{font-size:0.8rem;width:95%;text-align: center;margin:0.5rem auto;}
+
+.mertarialRight{padding: 0 20px;}
+.catogoryCho{width:94%;background: #273341;margin:1rem auto;height:auto;overflow: hidden;padding-top:2rem;padding-left:2%;padding-bottom: 2rem;}
+/*.catogoryCho .imgWrap{border:1px solid red;}*/
+.catogoryCho .catoImg{height:20rem;border:1px solid #4a545e;}
+.catogoryCho .catoImg img{width:80%;height:80%;display: block;margin:10% auto;}
+.catogoryCho  .CatoSma{width:100%;height:6rem;padding: 0;padding-top:2rem;}
+.catogoryCho  .CatoSma li{float: left;list-style: none;width:25%;height:5rem;border:1px solid #4a545e;margin-right:6%;margin-bottom: 2rem;}
+.catogoryCho  .CatoSma li img{width:80%;height:80%;display: block;margin:10% auto;}
+.catogoryCho .itemPho dl{width:22%;height:7rem;float: left;margin: 0.5rem 0;margin-right:3%;}
+
+
+
+
+.catogoryCho .itemPho dt{height:5rem;}
+.catogoryCho .itemPho dt img{width:100%;height: 100%;display: block;margin:0 auto;}
+.surfaceDeal,.printColor,.technology{margin-top:1.5rem;}
+.catogoryCho .itemPho dd{width:100%;margin:0;text-align: center;font-size:0.9rem;margin-top:0.5rem;}
+.surfaceDeal ul,.printColor ul, .technology ul{width:100%;height:auto;overflow: hidden;padding:0;margin:0;}
+.surfaceDeal ul li,.printColor ul li, .technology ul li{padding:0 1rem;height:2rem;float: left;list-style: none;border:1px solid #4a545e;text-align: center;line-height: 2rem;color: white;margin-right:3%;}
+.itemName{padding-top: 0.5rem;}
+
+.addBorder{border:2px solid #02f1ff !important;box-sizing: border-box;}
+.addColor{color: #02f1ff !important;}
+.addBorderColor{border-color: #02f1ff !important;}
+
+
+.pager{
+	width:100%;
+	height:auto;
+	text-align: center;
+	margin-top:1rem;
+	display: none;
+}
+.pager span{margin:0 0.5rem;color: #3e3e3e;}
+.pager .pageNum{
+	width:2rem;
+	position:relative;
+	top:-0.2rem;
+	outline: none;
+	text-align: center;
+}
+
+#orderPop{
+	width:100%;height:100%;position: fixed;background: rgba(0,0,0,0.6);
+	left:0;right:0;bottom: 0;top: 0;z-index: 999999;
+	display: none;
+}
+.loadAni{width:100%;height:90%;background: #efeff4;text-align: center;line-height: 48rem;display: none;}
+#orderPop .orderWrap{color: white;width:50%;height:80%;background: #24303E;margin:8% auto;border-radius: 0;padding-top: 1rem;}
+#orderPop .orderWrap .popCon{width:100%;height:80%;overflow-y: scroll;}
+#orderPop .orderWrap .item{width:90%;height:auto;margin:0 auto;background: #313D4D;margin-top:1rem;padding:0.5rem 0;}
+#orderPop .orderWrap .titOne{width:100%;text-align: center;font-size: 1.4rem;}
+#orderPop .orderWrap p{margin:0.3rem 0 ;font-size: 1rem;width:100%;}
+#orderPop .orderWrap .titTwo{text-align: center;margin-bottom: 0.5rem;}
+#orderPop .orderWrap  span{color: white;margin-left: 0.5rem;font-size: 0.9rem;}
+#orderPop .orderWrap .inforLabel{color: white;width:30%;display: inline-block;font-size: 0.9rem;}
+#orderPop .orderWrap .infor{border-top:1px solid #4a545e;}
+#orderPop .orderWrap .popBtn{width:30%;height:3.5rem;font-size: 1.4rem;background: #1CBFD2;margin:0rem auto;margin-top:0.6rem;text-align: center;line-height: 3.5rem;color:#fff;}
+.finishPack{width:20%;height:3rem;background: #1CBFD2;margin:0 auto;text-align: center;line-height:3rem;color:#fff;font-size: 1.2rem;border-radius:1.5rem;}
+.finishPack i{font-size:1.3rem;margin-right: 0.2rem;}
+
+
+
+/*=======================================================
+           **************仪表盘动画***************
+=========================================================*/
+.circle{height: 1.5rem;background: url(/Image/mobile/circleCon.png) no-repeat center /auto 100%;position: relative;}
+.circle i{width: 15px;height: 15px;position: absolute;left: 50%;top: 50%;margin-left: -7px;margin-top: -12px;transform-origin: 50% 100%;
+	transform: rotate(270deg);
+	transition: all 2s;
+	display: inline-block;background: url(/Image/mobile/circleLin.png) no-repeat center /auto 100%;}
+
+
+/*=======================================================
+           **************企业ERP***************
+=========================================================*/
+.CompanyContainer,.CompanyLeft,.CompanyRight{height: 100%;}
+.CompanyRight_Top_Matters,.CompanyRight_Top_Finance,.CompanyRight_Top_Purchase,.CompanyRight_Top_Stock,.CompanyRight_Top_Capacity{height: 90%; position: relative;background-color: #1f2931;display: none; }
+.CompanyRight_Top_Finance{overflow-y: auto;overflow-x: hidden;}
+
+
+
+.CompanyRight_Top_number{    color: white;font-size: 1rem;position: absolute; left: 2%;top: 5%;}
+.CompanyRight_Top_number p{font-size: 2rem;color: #07b6f9;margin: 0.5rem 0;    letter-spacing: 4px;}
+
+
+.CompanyRight_Bottom{text-align: center;}
+
+.CompanyRight_Bottom li a{color: white; width: 100%;display: inline-block;}
+
+.CompanyRight_Bottom li span{    font-size: 0.8rem; display: block; position: relative; top: -8px;}
+.SelectCompany_Menu{color: #02f1ff!important;}
+
+/*finance*/
+.displayblack{display: block!important;}
+.CompanyRight_Top_Finance_Map{height: 60%;}
+
+
+
+#CompanyRight_Top_Finance_table_Right>div{width: 100%;padding: 5% 0;border: 2px dashed #ccc;border-radius: 10px;text-align: center;}
+#CompanyRight_Top_Finance_table_Right h5{color: white;font-weight: 400;margin: 0.2rem 0;}
+#CompanyRight_Top_Finance_table_Right p{color: #07b6f9;font-size: 1rem;margin: 0;letter-spacing: 4px;}
+#CompanyRight_Top_Finance_table_Right p span{font-size: 2.3rem;font-weight: 300;font-family: initial;}
+
+
+/*Purchase*/
+
+
+
+.CompanyRight_Top_Purchase_table h4{color: white; font-size: 0.92rem;font-weight: 500;text-align: center;margin: 0rem  0 1rem 0;}
+.CompanyRight_Top_Purchase_table table{color: #eee;width: 100%;text-align: center;border: 0;}
+.CompanyRight_Top_Purchase_table thead {font-size: 1rem;}
+.CompanyRight_Top_Purchase_table tbody {font-size: 0.8rem;}
+.CompanyRight_Top_Purchase_table td{height: 24px;  border: 1px solid #4a545e;}
+
+
+/*stock*/
+
+
+/*Capacity*/
+.CompanyRight_Top_Capacity_Data{height: 50%;}
+
+.CompanyRight_Top_Capacity_Intro{width: 80%; height: 50%; margin: 0 auto;position: relative;text-align: center;}
+
+.CompanyRight_Top_Capacity_Intro .intro figcaption{width: 100%; font-size: 15px;text-align: center;color: #fff;font-weight: 500;line-height: 30px;position: absolute;top: 25px;left: 0;font-weight: 200;}
+.CompanyRight_Top_Capacity_Intro .intro img{max-height: 100%; margin: 0 auto;width: 100%;}
+/*.deviceTable tr{height: 25%;}*/
+.tableTitle td {height: 2.5rem;}
+.tableContent{height:22%;}
+.deviceTable tr td{color: #fff !important;}
+.tableTitle td{width:20%;}
+.tableContent td{padding-left: 1%;padding-right: 1%;}
+.tableContent td .imgWrap{width: 80%;height: 80%;margin:0 auto;}
+.tableContent td .imgWrap img{width: 100%;height: 100%;vertical-align: middle;}
+.tableContent td  i{font-size: 20px;}
+
+/*进度条*/
+.produceWrap{width: 80%;height: 0.8rem;background:#394756;position: relative;float: left;}
+.produce{
+	width: 70%;height: 0.8rem;position: absolute;top: 0;left: 0;
+   background: -webkit-linear-gradient(left, rgb(55,125,249) , rgb(58,197,252)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, rgb(55,125,249), rgb(58,197,252)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, rgb(55,125,249), rgb(58,197,252)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, rgb(55,125,249) , rgb(58,197,252)); /* 标准的语法 */
+}
+

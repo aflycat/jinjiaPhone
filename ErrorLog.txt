@@ -1,0 +1,426 @@
+----------2018/3/25 9:28:26----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/3/25 13:07:03----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/3/25 13:44:23----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/3/26 8:32:44----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/3/26 8:32:44----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/4/10 18:10:48----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/4/10 18:10:48----------
+表名：GWAddinModule，查询为空
+-------------------------------------
+
+----------2018/4/10 18:10:48----------
+表名：GWEquipPages，查询为空
+-------------------------------------
+
+----------2018/4/10 18:12:06----------
+表名：GWAddinModule，查询为空
+-------------------------------------
+
+----------2018/4/10 18:12:44----------
+表名：GWEquipPages，查询为空
+-------------------------------------
+
+----------2018/4/10 18:17:32----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/4/10 18:17:32----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/4/11 11:34:58----------
+表名：GWAddinModule，查询为空
+-------------------------------------
+
+----------2018/4/11 11:35:14----------
+表名：GWEquipPages，查询为空
+-------------------------------------
+
+----------2018/4/11 11:36:16----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/4/11 11:37:18----------
+表名：GWAddinModule，查询为空
+-------------------------------------
+
+----------2018/4/11 11:38:05----------
+表名：GWEquipPages，查询为空
+-------------------------------------
+
+----------2018/4/11 17:55:57----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/11 17:55:59----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/11 17:56:00----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/11 17:56:01----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/11 17:56:01----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/24 10:58:58----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/4/24 10:58:58----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/4/24 10:59:00----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/4/26 14:05:36----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/26 14:05:38----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/26 14:05:41----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/26 14:05:52----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/4/26 14:05:54----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GWServiceOld.Data.ClassLib.GetDataTableFromSQL(String SQL)
+-------------------------------------
+
+----------2018/5/16 15:34:38----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:05:24----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:06:40----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:09:41----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:11:40----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:11:59----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:12:16----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:19:34----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:19:44----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:19:47----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:19:57----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:23:53----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:24:42----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:28:57----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:29:09----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/16 16:29:17----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/24 17:14:46----------
+System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 AlarmCenterWcfServiceLibrary.IAlarmCenterDatabaseService.GetDataTableFromSQL(String strSQL)
+   在 AlarmCenter.DataCenter.DataCenter.GetUserItem(String nm, Boolean isClinet)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+
+----------2018/5/24 17:14:46----------
+System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 AlarmCenterWcfServiceLibrary.IAlarmCenterDatabaseService.GetDataTableFromSQL(String strSQL)
+   在 GWService.Net.ClassLib.QueryTableData(String tableName)
+-------------------------------------
+
+----------2018/5/24 17:14:46----------
+System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 AlarmCenterWcfServiceLibrary.IAlarmCenterDatabaseService.GetDataTableFromSQL(String strSQL)
+   在 GWService.Net.ClassLib.QueryTableData(String tableName)
+-------------------------------------
+
+----------2018/5/29 8:55:48----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:55:53----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWServiceOld.Data.ClassLib.RunProxySend(String ip, String userName, String pwd)
+   在 GWServiceOld.Data.ClassLib.EnsureRunProxy(String wcfIP, String pageUserNm)
+-------------------------------------
+
+----------2018/5/29 8:56:16----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:56:28----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWServiceOld.Data.ClassLib.RunProxySend(String ip, String userName, String pwd)
+   在 GWServiceOld.Data.ClassLib.EnsureRunProxy(String wcfIP, String pageUserNm)
+-------------------------------------
+
+----------2018/5/29 8:57:23----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:57:28----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWServiceOld.Data.ClassLib.RunProxySend(String ip, String userName, String pwd)
+   在 GWServiceOld.Data.ClassLib.EnsureRunProxy(String wcfIP, String pageUserNm)
+-------------------------------------
+
+----------2018/5/29 8:58:08----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:58:13----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWServiceOld.Data.ClassLib.RunProxySend(String ip, String userName, String pwd)
+   在 GWServiceOld.Data.ClassLib.EnsureRunProxy(String wcfIP, String pageUserNm)
+-------------------------------------
+
+----------2018/5/29 8:58:47----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:58:52----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWServiceOld.Data.ClassLib.RunProxySend(String ip, String userName, String pwd)
+   在 GWServiceOld.Data.ClassLib.EnsureRunProxy(String wcfIP, String pageUserNm)
+-------------------------------------
+
+----------2018/5/29 8:59:03----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:59:18----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:59:20----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWService.Net.Data.Methods.RunProxy(String ip, String Name, String pwd)
+   在 GWService.Net.ClassLib.ConnectService(String user_name)
+-------------------------------------
+
+----------2018/5/29 8:59:36----------
+AlarmCenter服务未启动或服务运行出错，若服务出错请查看/AlarmCenter/XLog.txt错误日志
+-------------------------------------
+
+----------2018/5/29 8:59:44----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWService.Net.Data.Methods.RunProxy(String ip, String Name, String pwd)
+   在 GWService.Net.ClassLib.ConnectService(String user_name)
+-------------------------------------
+
+----------2018/5/29 8:59:45----------
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AlarmCenter.DataCenter.DataCenter.RunProxy(String csIP, String Name, String PWD, ClientType CT, Boolean bLogin)
+   在 GWService.Net.Data.Methods.RunProxy(String ip, String Name, String pwd)
+   在 GWService.Net.ClassLib.ConnectService(String user_name)
+-------------------------------------
+
+----------2018/5/29 11:11:28----------
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 AlarmCenter.DataCenter.WebUserDictionary.AddUser(String Name)
+   在 GWService.Net.ClassLib.UserPermissions(String userName)
+-------------------------------------
+

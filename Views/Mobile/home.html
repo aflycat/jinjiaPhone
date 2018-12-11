@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Expires" content="0">
+    <meta name="referrer" content="no-referrer"/>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <title>AlarmCenter | 首页</title>
+    <link rel="icon" href="/Image/logo.png" type="image/x-icon">
+    <!--框架样式-->
+    <link rel="stylesheet" href="/Scripts/plug/1.5.0/framework7.ios.min.css">
+    <link rel="stylesheet" href="/Scripts/plug/1.5.0/framework7.ios.colors.min.css">
+    <!--图标字体样式-->
+    <link rel="stylesheet" type="text/css" href="/fonts/iconfont.css" />
+    <!--声波动画-->
+    <link rel="stylesheet" type="text/css" href="/Styles/Plugin/waveAnimation.css" />
+    <!--本页样式-->
+    <link rel="stylesheet" type="text/css" href="/Styles/Mobile/style.css" /><!-- new add 2018-05-16 -->
+    <link rel="stylesheet" href="/Styles/Mobile/home.css">
+    <link rel="stylesheet" href="/fonts/produc/iconfont.css">
+</head>
+<body>
+    <!-- 状态栏覆盖为全屏模式 -->
+    <!--<div class="statusbar-overlay"></div>-->
+    <!-- 面板覆盖-->
+    <div class="panel-overlay"></div>
+    <!-- 左侧边栏-->
+    <div class="panel panel-left layout-dark panel-cover">
+        <div class="list-block list-page">
+            <ul>
+                <li class="wlt750 close-panel">
+                    <a href="oAbox.html" class="item-link">
+                        <div class="item-content">
+                            <div class="item-media"><i class="iconfont icon-huancun"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">协同包装</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="wlt750 close-panel">
+                    <a href="orderManage.html" class="item-link">
+                        <div class="item-content">
+                            <div class="item-media"><i class="iconfont icon-huancun"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">订单管理</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="wlt750 close-panel">
+                    <a href="companyErp.html" class="item-link">
+                        <div class="item-content">
+                            <div class="item-media"><i class="iconfont icon-huancun"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">企业ERP</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>                                                
+                <li>
+                    <a href="UserInfor.html" class="item-link close-panel">
+                        <div class="item-content">
+                            <div class="item-media"><i class="iconfont icon-yonghu"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title" id="userName"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li id="appCacheClearLi" style="display:none;">
+                    <a href="#" class="item-link" onclick="onAppCacheClear()">
+                        <div class="item-content">
+                            <div class="item-media"><i class="iconfont icon-huancun"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">清空缓存</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-link" onclick="onAbout()">
+                        <div class="item-content">
+                            <div class="item-media"><i class="iconfont icon-guanyu"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">关于</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-link" onclick="onUserLogout()">
+                        <div class="item-content">
+                            <div class="item-media"><i class="iconfont icon-logout"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">注销</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 右侧边栏-->
+    <div class="panel panel-right panel-reveal">
+        <div class="content-block">
+            <p>右侧边栏内容</p>
+        </div>
+    </div>
+    <!-- 视图 -->
+    <div class="views">
+        <div class="view view-main">
+            <!-- 顶部导航条-->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="left" style="width: 50%;">
+                       <img src="../../Image/mobile/logo_03.png" alt="">
+                        劲嘉智慧终端运营
+                    </div>
+                    <div class="right">
+                           <div class="name">
+                               <span>Hi,admin</span>
+                               <p class="photo" style="background: url(../../Image/mobile/logo_03.png) center center no-repeat;background-size: 100% 100%;border:1px solid #4a545e;"></p>
+                           </div>
+                           <div class="corper">
+                                 <a href="#" class="open-panel"><i class="iconfont icon-shezhi"></i></a>
+                                <a href="" ><i class="iconfont icon-wo"></i></a>    
+                           </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- 子界面-->
+            <div class="pages navbar-through toolbar-through">
+                <input type="text" id="proType" value="0">
+                <input type="text" id="boxType" value="">
+                <div data-page="home" class="page" id="home" style="padding-top: 3rem;">
+                            <div class="contWrap containerHome">
+                               <div class="conItem clear">
+                                    <a class="oneItem" href="oAbox.html" >
+                                      
+                                        <i class="iconfont icon-wuliaobaozhuangdan" ></i>
+                                        <p>协同包装</p>
+                                     </a>
+                                     <a class="oneItem" href="orderManage.html">
+                                        
+                                         <i class="iconfont icon-dingdanzhuangtai" ></i>
+                                         <p>订单管理</p>
+                                     </a>
+                                     <a class="oneItem" href="companyErp.html">
+                                         <i class="iconfont icon-shujutongji" ></i>
+                                         <p>企业ERP</p>
+                                     </a>
+                               </div>
+                        </div>
+                   </div>
+            </div>
+            <!-- 底部工具栏-->
+            <div id="homeBar" class="toolbar" >
+                    <div class="tabWrap">
+                         <div class="tabItem">
+                             <a href="oAbox.html" class="link" id="PackTool">
+                                <i class="iconfont icon-wuliaobaozhuangdan"></i>
+                                <span>协同包装</span>
+                            </a>
+                        </div>
+                        <div class="tabItem">
+                             <a href="orderManage.html" class="link" id="OrderTool">
+                                <i class="iconfont icon-dingdanzhuangtai"></i>
+                                <span>订单管理</span>
+                            </a>
+                        </div>
+                        <div class="tabItem">
+                             <a href="companyErp.html" class="link" id="CompTool">
+                                <i class="iconfont icon-shujutongji" cls="home"></i>
+                                <span>企业ERP</span>
+                            </a>
+                        </div>
+                    </div>
+              </div>
+              <div id="orderPop">
+                    <div class="orderWrap">
+                        <p class="titOne">订单详情</p>
+                        <div class="popCon">
+                             <div class="item">
+                            <p class="titTwo">订单信息</p>
+                            <div class="infor">
+                                <p>
+                                    <span class="inforLabel">订单号</span>
+                                    <span id="orderNums"></span>
+                                </p>
+                                <p>
+                                    <span  class="inforLabel">订单类型</span>
+                                    <span id="orderType">123</span></p>
+                                <p>
+                                    <span class="inforLabel">客户名称</span>
+                                    <span id="cusName">132</span></p>
+                                <p>
+                                    <span class="inforLabel">生产进度</span>
+                                    <span id="during">13</span></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="titTwo">仓库信息</p>
+                             <div class="infor">
+                                <p>
+                                    <span class="inforLabel">所属仓库位置</span>
+                                    <span id="wareHouse"></span></p>
+                                <p>
+                                    <span class="inforLabel">仓库编号</span>
+                                    <span id="wareHouseCode"></span></p>
+                                <p>
+                                    <span class="inforLabel">仓库管理员</span>
+                                    <span id="wareHouseMan"></span></p>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <p class="titTwo">物流信息</p>
+                            <div class="infor">
+                                <p>
+                                    <span class="inforLabel">司机信息</span>
+                                    <span id="driver"></span></p>
+                                <p>
+                                    <span class="inforLabel">当前位置</span>
+                                    <span id="nowAddr"></span></p>
+                                <p>
+                                    <span class="inforLabel">发件地</span>
+                                    <span id="sendPlace"></span></p>
+                                <p>
+                                    <span class="inforLabel">目的地</span>
+                                    <span id="arrivePlace"></span></p>
+                                <p>
+                                    <span class="inforLabel">预计送达时间</span>
+                                    <span id="arriveTime"></span></p>
+                            </div>
+                        </div>
+                        </div>
+                       <p class="popBtn" onclick="closeThis()">确定</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- 框架js-->
+    <script src="/Scripts/plug/jquery-1.10.1.min.js"></script>
+    <script src="/Scripts/plug/jq.ajax.min.js"></script>
+    <script src="/Scripts/plug/json2.js"></script>
+    <script src="/Scripts/plug/highcharts.js"></script>
+    <script src="/Scripts/plug/echarts.min.js"></script>
+    <script src="/Scripts/plug/china.js"></script>
+    <script type="text/javascript" src="/Scripts/plug/1.5.0/framework7.js"></script>
+    <script type="text/javascript" src="/Scripts/plug/html2canvas.min.js"></script>
+    <!-- 首页js-->
+    <script type="text/javascript" src="/Scripts/mobile/home.js"></script>
+    <!-- 移动端入口js-->
+    <script type="text/javascript" src="/Scripts/mobile/mobileAll.js"></script>
+    <!-- 插件-->
+    <script type="text/javascript" src="/Scripts/mobile/plugin/appPopup.js"></script>
+    <script type="text/javascript" src="/Scripts/mobile/plugin/CompanyConfig.js"></script>
+</body>
+</html>
